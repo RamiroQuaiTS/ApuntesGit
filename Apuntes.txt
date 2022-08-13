@@ -1,0 +1,20 @@
+Git es una repositorio distribuido esto quiere decir que todos tiene el codigo en su máquina
+Comandos :
+git init - para crear y para que git pueda manejar este repositorio crea un archivo .git
+vim .gitignore - genera un archivo gitignore y dentro de este se puede agregar todo lo que no se quiera subir a git
+	ejemplos
+		archivo.txt
+		*txt
+		carpeta/*
+vim "NombreArchivo"."Extension" - genera un archivo nuevo y abre en consola las linas para poder escribir
+git pull origin master - se trae la ultima versión del repositorio
+git add -A agrega todos los cambios que se hicieron
+git add "NombreArchivo"."Extension" solo deja listo este archiv para hacer commit
+git commit -m "Comentario" hace commit de lo subido y con -m se agrega comentario para poder identificara el cambio
+git push origin master - sube todo al repositrio a la nubee
+
+git log - se trae todo lo que se ha comiteado, para salir de este comando cuando hay muchos hay que tlequear q
+git log -n 3 se trae solo los 3 utlimos registros 
+
+para salir de la pantalla de vim es necesario presionar ESC luego :w para guardar y :q para cerrar y regresar al comando de git
+si se agrega :wq guardar y cierra
