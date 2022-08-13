@@ -18,3 +18,12 @@ git log -n 3 se trae solo los 3 utlimos registros
 
 para salir de la pantalla de vim es necesario presionar ESC luego :w para guardar y :q para cerrar y regresar al comando de git
 si se agrega :wq guardar y cierra
+
+Para agregar un nuevo repositorio hay que entrar a github.com y agregar el repositorio nuevo luego que se quiera agregar 
+algun cambio a este repositorio hay que ejecutar el comando siguiente, copiando antes la ruta del repositorio
+
+git remote add origin http://reposotiro/mirep/etc......../repo.git
+con esto nos ponemos en el repositorio debería de ser algo asi
+git remote add origin https://github.com/RamiroQuaiTS/ApuntesGit.git
+y para finalizar usar el comando 
+git push origin master
