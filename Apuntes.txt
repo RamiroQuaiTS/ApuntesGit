@@ -27,3 +27,11 @@ con esto nos ponemos en el repositorio debería de ser algo asi
 git remote add origin https://github.com/RamiroQuaiTS/ApuntesGit.git
 y para finalizar usar el comando 
 git push origin master
+
+Creación de Ramas (Branch)
+esto sirve para crear ramas antes de trabjar en la master para esto hay que crear una arama con el siguiente comando
+git branch NuevaRama {Aqui va el nombre de la rama en lugar de NuevaRama}
+y para trabjar en la nueva rama hay que poner
+git checkout NuevaRama
+
+para ver todas la ramas hay que poner git branch sin argumentos y se muestran todas
