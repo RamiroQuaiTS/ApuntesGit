@@ -1,0 +1,5 @@
+Se genera este nuevo archivo para poder hacer un flujo mas rapido 
+esto desde una nueva rama o branch
+
+todo esto se vio desde la pagina "https://www.youtube.com/watch?v=kEPF-MWGq1w"
+hay mas videos para saber git pero este explica rapido y bien
