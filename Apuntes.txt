@@ -35,3 +35,31 @@ y para trabjar en la nueva rama hay que poner
 git checkout NuevaRama
 
 para ver todas la ramas hay que poner git branch sin argumentos y se muestran todas
+git branch
+
+la forma de subir cambios es igual que trabajr en la branch master
+
+git add -A para agregar todo o git add {nombre del archivo}
+git commit -m "Agregar comentario"
+
+para preprar todos los cambios que se hicieron en esta rama hay que poner el siguiente comando
+git push -u origin NuevaRama
+Con git branch -a se ven todas las branch generadas 
+
+Ahora hay que unir lo de la branch nueva con la master hy para esto hay que poner los siguientes comandos
+Pasarnos a la rama master
+git checkout master
+git pull origin master - para aseguranos que tenemos la ultima versión 
+Para saber cuales barnch estan listas se pone 
+git branch --merged
+y para hacer el merge de la nueva rama hay que poner 
+git merge NuevaRama
+ya solo falta subir todo a la rama master
+git push origin master
+y como recomendiacion es bueno limpiar o eliminar las branch o ramas que ya fueron usadas para esto hay que poner los siguientes comandos
+
+git push origin --delete NuevaRama
+Con esto no se borra de la master para esto hay que poner 
+git barnch -d NuevaRama
+
+
